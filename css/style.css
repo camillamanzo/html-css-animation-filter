@@ -1,0 +1,64 @@
+         
+         /* INFO GENERICHE */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80vw;
+    margin: auto;
+}
+
+header>h1{
+    text-align: center;
+    margin: 40px 0 80px;
+}
+
+main h2{
+    margin-top: 30px;
+}
+
+.light-grey{
+    background-color: rgb(255, 242, 242);
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: .5px .5px 5px 5px rgb(252, 216, 222) inset;
+}
+
+.quadrato{
+    width: 100px;
+    height: 100px;
+    transition: all 2s ease 0s;
+}
+
+.quadrato.bg{
+    background-color: teal;
+} 
+
+            /* INFO SPECIFICHE */
+
+            
+#sfumato-hover{
+    border: 2px solid teal;
+}
+
+#sfumato-hover:hover{
+    background-color: teal;
+}   
+
+#rettangolo-click:active{
+    width: 100%;
+}
+
+#cerchio-hover:hover{
+    border-radius: 100%;
+}
+
+#no-bg-hover:hover{
+    opacity: 0;
+}
