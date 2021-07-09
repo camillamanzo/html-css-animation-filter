@@ -33,16 +33,25 @@ main h2{
 .quadrato{
     width: 100px;
     height: 100px;
-    transition: all 2s ease 0s;
 }
 
 .quadrato.bg{
     background-color: teal;
 } 
 
+.quadrato,
+.img-trans{
+    transition: all 2s ease 0s;
+}
+
+.large{
+    width: 800px;
+}
+
+
             /* INFO SPECIFICHE */
 
-            
+
 #sfumato-hover{
     border: 2px solid teal;
 }
@@ -62,3 +71,31 @@ main h2{
 #no-bg-hover:hover{
     opacity: 0;
 }
+
+#small-big{
+    width: 50px;
+    height: 50px;
+}
+
+#small-big:hover{
+    width: 100px;
+    height: 100px;
+}
+
+#small-big:active{
+    width: 50px;
+    height: 50px;
+}
+
+#bw-plane:hover{
+    filter: grayscale(1);
+}
+
+#plane-two:hover{
+    filter: hue-rotate(90deg) saturate(.5);
+}
+
+
+
+
+
