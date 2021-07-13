@@ -30,6 +30,10 @@ main h2{
     box-shadow: .5px .5px 5px 5px rgb(252, 216, 222) inset;
 }
 
+.fixed-height{
+    height: 150px;
+}
+
 .quadrato{
     width: 100px;
     height: 100px;
@@ -94,6 +98,35 @@ main h2{
 #plane-two:hover{
     filter: hue-rotate(90deg) saturate(.5);
 }
+
+#sunset-1:hover{
+    border-radius: 10%;
+    filter: grayscale(.5) saturate(.5);
+}
+
+#sunset-2{
+    width: 500px;
+}
+
+#sunset-2:hover{
+    width: 800px;
+    border-radius: 10%;
+    filter: grayscale(.5) hue-rotate(60deg);
+}
+
+.loading{
+    font-size: 50px;
+    color: black;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: spinALittleBit 2s linear;
 
 
 
